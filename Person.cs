@@ -17,19 +17,6 @@ namespace CPRG211E_Person_Lab
         private int age;
         private bool isWorking;
 
-        /*____________________________nick solution
-        //properties!
-        public int PersonID { get => PersonId; set personId; => value; }
-
-        public int PersonId
-        {
-            get { return personId; }
-            set { personId = value; }
-        }
-       ________________________________________________ */
-
-
-
         // classes have one or more constructors
         public Person(int personId, string firstName, string lastName, string favoriteColour, int age, bool isWorking)
         {

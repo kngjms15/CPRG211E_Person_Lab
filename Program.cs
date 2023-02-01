@@ -27,14 +27,6 @@ namespace CPRG211E_Person_Lab
             Person person4;
             person4 = new Person(4, "Mary", "Beals", "Yellow", 28, true);
 
-            /*___________________________________nick solution
-
-            Person ian = newPerson(1, "Ian", "Brooks", "Red", 30, true);
-            Person gina = newPerson(1, "Gina", "James", "Green", 18, false);
-            Person ian = newPerson(1, "Mike", "Briscoe", "Blue", 45, true);
-            Person ian = newPerson(1, "Mary", "Beals", "Yellow", 48, true);
-            _______________________________________*/
-
             //Run program outputs
             person2.DisplayPersonInfo();
             Console.WriteLine(person3.ToString());
@@ -45,7 +37,7 @@ namespace CPRG211E_Person_Lab
             //person1.DisplayPersonInfo();
 
 
-            
+
 
         }
     }
